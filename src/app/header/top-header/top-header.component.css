@@ -1,0 +1,19 @@
+.top-header{
+  background-color: midnightblue;
+  text-align: center;
+  padding:10px 0px ;
+  color: #fff;
+  font-size: 17px;
+  position: relative;
+}
+span{
+  position: absolute;
+  display: inline-block;
+  right: 12px;
+  color: red;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}

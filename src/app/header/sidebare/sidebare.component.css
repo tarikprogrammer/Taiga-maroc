@@ -1,0 +1,150 @@
+.container{
+  margin-left: 50px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: #F6F5F5;
+  box-shadow: 0px 0px 10px 0px #B5C0D0;
+  border-radius: 12px;
+
+}
+.container   li{
+  padding: 16px 10px 16px 0px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+}
+.container i{
+  font-size: 15px;
+ margin: 0px 17px;
+}
+
+.categories{
+  background-color: midnightblue;
+  color: #ffffff;
+  font-size: 17px;
+  width: 100%;
+  border-radius: 12px 12px 0px 0px ;
+}
+.categories .cat{
+  color: #ffffff;
+}
+.container   a{
+  width: 150px;
+  color: midnightblue;
+  text-space: 12px;
+}
+.container span i {
+  font-size: 10px;
+}
+.container  li:hover{
+  background-color:#D8D2CB;
+  border-radius: 20px 0px 0px 20px;
+  cursor: pointer;
+}
+.categories:hover{
+  background-color: midnightblue;
+}
+.maison-cuisine{
+  background-color: #ffffff;
+  padding: 10px;
+  width: 180px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px 0px #F6F5F5;
+  /*position: absolute;
+  left: 21%;
+  top: 55%;
+  */
+  z-index: 4;
+  position: absolute;
+  left: 24%;
+ top: 55%;
+  display: none;
+}
+
+.maison-cuisine .maison li {
+  background-color:transparent;
+ margin-bottom: 4px;
+  padding: 0px;
+}
+
+.maison-cuisine .maison li a{
+  display: inline-block;
+  position: relative;
+  padding-bottom: 6px;
+  width: 100%;
+  margin-left: 10px;
+}
+.maison-cuisine li a::before{
+  content: "";
+  position: absolute;
+  width: 80%;
+  border-bottom: 1px solid #000;
+  bottom: 0;
+  transform: scale(0);
+  transition: transform .4s ease-in-out;
+}
+.maison-cuisine li a:hover::before {
+ transform:scale(1);
+}
+.Maison-hover:hover .maison-cuisine{
+  display: block;
+  position: absolute;
+  left: 20%;
+  top: 55%;
+}
+.maison-connectée{
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  display: none;
+/*  display: block;*/
+}
+.maison-connectée-hover:hover .maison-connectée{
+  display: block;
+}
+.telephone{
+  width: fit-content;
+  position: absolute;
+  left: 20%;
+  top: 86%;
+  display: none;
+}
+.telephone-hover:hover .telephone{
+  display: block;
+}
+.sport{
+  width: fit-content;
+  position: absolute;
+  left: 20%;
+  top: 540px;
+  display: none;
+}
+.sport-hover:hover .sport{
+  display: block;
+}
+.bébé {
+  width: fit-content;
+  position: absolute;
+  left: 20%;
+  top: 620px;
+  display: none;
+}
+.bébé-hover:hover .bébé{
+  display: block;
+}
+.gaming{
+  width: fit-content;
+  position: absolute;
+  left: 20%;
+  top: 680px;
+  display: none;
+}
+.gaming-hover:hover .gaming{
+  display: block;
+}
+/*@media screen and (max-width:1246px) {
+  .container{
+    display: none;
+  }
+}*/

@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.image-search{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width:1244px){
+  .app-sidebare{
+    display: none;
+  }
+  .image-search{
+    width: 100%;
+
+  }
+  .app-search{
+    margin-bottom: 20px;
+  }
+  .container{
+    width: 100%;
+  }
+  .app-image-header{
+   width: 100%;
+  }
+
+}
