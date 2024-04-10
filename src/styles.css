@@ -6,7 +6,8 @@
   font-family: sans-serif;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 body{
-  overflow-x:hidden ;
+  overflow-x:hidden;
 }
